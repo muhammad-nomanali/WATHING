@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WATHING</title>
+    <link rel="icon" href="./assets/images/IMG_9261.PNG" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+  
+    <!-- hero section start -->
+    <section class="main max-[768px]:h-auto max-[768px]:pb-[40px] ">
+      <nav class="py-[20px]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16 items-center">
+            <!-- Left Side: Logo and LogoName -->
+            <div class="flex items-center">
+              <img
+                src="./assets/images/IMG_9261-removebg-preview.png"
+                alt="Logo"
+                class="h-20 w-20 mr-2"
+              />
+              <span class="text-[30px] font-bold max-[768px]:text-[16px]">WATHING</span>
+            </div>
+  
+            <!-- Center: Navigation Links -->
+            <div class="hidden md:flex space-x-6">
+              <a
+                href="#"
+                class="text-black hover:text-white font-[variable] text-[22px]"
+                >Home</a
+              >
+              <a
+                href="#About"
+                class="text-black hover:text-white font-[variable] text-[22px]"
+                >About</a
+              >
+              <a
+                href="#Roadmap"
+                class="text-black hover:text-white font-[variable] text-[22px]"
+                >Roadmap</a
+              >
+              <a
+                href="#Tokenomics"
+                class="text-black hover:text-white font-[variable] text-[22px]"
+                >Tokenomics</a
+              >
+         
+            </div>
+  
+            <!-- Right Side: Button -->
+            <!-- <button
+            onclick="window.open('./assets/images/Wathing_Coin.pdf')"
+            class="bg-[#ffde59] font-bold text-black px-10 py-2 rounded-lg hover:bg-blue-600 mt-10"
+          >
+            Whitepaper
+          </button> -->
+          
+            <div class="hidden md:block">
+              <button
+                class="bg-[#ffde59] font-[typoSpeed] text-black px-4 py-2 rounded-lg hover:bg-blue-600"
+              >
+                Buy
+              </button>
+            </div>
+  
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+              <button
+                id="mobile-menu-button"
+                class="text-gray-700 focus:outline-none"
+              >
+                <!-- Hamburger icon -->
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+          <div class="px-2 pt-2 pb-3 space-y-1">
+            <a
+              href="#"
+              class="block text-gray-700 hover:text-blue-500 font-[variable]"
+              >Home</a
+            >
+            <a href="#" class="block text-gray-700 hover:text-blue-500">About</a>
+            <a href="#" class="block text-gray-700 hover:text-blue-500"
+              >Services</a
+            >
+            <a href="#" class="block text-gray-700 hover:text-blue-500"
+              >Contact</a
+            >
+            <button
+              class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 mt-2"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="flex w-[80%] mx-auto pt-[100px]">
+        <div class="w-60% text-center">
+          <h2 class="font-[typoSpeed] text-[40px] uppercase max-[768px]:text-[35px] max-[508px]:text-[30px]">welcome to WATHING</h2>
+          <p class="font-[variable] text-[25px] w-[80%] mt-10 max-[768px]:w-[90%] max-[768px]:text-[22px] max-[630px]:w-[100%] max-[630px]:text-[20px] max-[630px]:text-start">
+            We’ve hatched a unique digital asset to create the ultimate nest egg.
+            An opportunity designed to grow over time, ensuring your investment
+            doesn’t crack under pressure.
+          </p>
+          <button
+          class="bg-[#ffde59] font-[typoSpeed] text-black px-10 py-2 rounded-lg hover:bg-blue-600 mt-10"
+        >
+          Buy
+        </button>
+        </div>
+    </section>
+    <!-- about -->
+     <section class="pt-20 bg-[#74bc28]" id="About">
+      <div class="">
+        <div class="w-[80%] mx-auto text-center mb-20 bg-white rounded p-[20px]">
+          <h2 class="font-[typoSpeed] text-[40px] uppercase max-[768px]:text-[35px] max-[508px]:text-[26px]">Contract address</h2>
+          <p id="contract-address" class="font-[variable] text-[22px] mt-[20px]  max-[508px]:text-[18px]">
+            hlkj57869jdghkoltkiujme88hjskf
+          </p>
+          <button
+            id="copy-button"
+            class="bg-[#ffde59] font-[typoSpeed] text-black px-10 py-2 rounded-lg hover:bg-blue-600 mt-10"
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      
+     <div class="w-[80%] mx-auto items-center flex justify-between  max-[768px]:flex-wrap max-[768px]:justify-center">
+      <div class="w-[70%] max-[768px]:w-[100%]">
+        <h2 class="font-[typoSpeed] text-[40px] uppercase max-[500px]:text-[30px]  ">about WATHING</h2>
+        <p class="font-[variable] text-[22px]  mt-10 max-[500px]:text-[18px] max-[500px]:mt-[0.5rem]">
+          Creating a community for everyone is our company's goal. You can communicate with your close friends through various photos and video videos on the Wathing APP.
+​
+Everyone's creative photos and videos support the development of the industry, individual business activities, and corporate promotional activities.
+        </p>
+      </div>
+      <div class="w-40% flex justify-end max-[768px]:mt-[50px] max-[768px]:justify-center">
+        <img width="80%" class="bg-[black] p-20 rounded" src="./assets/images/IMG_9261-removebg-preview.png" alt="">
+      </div>
+     </div>
+     <!-- how it work -->
+      <div class="pt-20 w-[80%] mx-auto" id="Roadmap">
+        <h2 class="font-[typoSpeed] text-[40px] uppercase text-center ">how it works</h2>
+        <div class="flex justify-between items-center flex-wrap pt-20 max-[760px]:justify-center">
+         
+<div class="group relative h-96 w-72 [perspective:1000px] ">
+  <div
+    class="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]"
+  >
+    <div
+      class="absolute w-full h-full rounded-xl  bg-[#38b6ff] p-6 text-black [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="flex justify-between items-start">
+          <div class="text-2xl font-bold font-[typoSpeed]">Step 1</div>
+          <div class="text-5xl">🌟</div>
+        </div>
+        <div class="mt-4">
+          <p class="text-lg font-[variable]">
+            Download Phantom or Solflare Wallet
+          </p>
+        </div>
+        <div class="w-[40%] mx-auto pt-10">
+          <img width="100%" class="bg-white rounded" src="./assets/images/q.png" alt="">
+        </div>
+        <div class="mt-auto">
+          <p class="text-sm opacity-75">Hover to flip!</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="absolute w-full h-full rounded-xl bg-[#ffde59] p-6 text-black [transform:rotateX(180deg)] [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="text-2xl font-bold mb-4 text-2xl font-bold font-[typoSpeed]">Step 1</div>
+        <div class="flex-grow">
+          <p class="text-lg font-[variable]">
+            Download Phantom or Solflare Wallet
+          </p>
+          <div class="w-[40%] mx-auto flex justify-center items-center pt-10">
+            <img width="100%" class="bg-white rounded" src="./assets/images/q.png" alt="">
+          </div>
+        </div>
+        
+        <div class="flex justify-between items-center mt-auto">
+          <button
+            class="px-4 py-2 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
+          >
+            Action
+          </button>
+          <span class="text-3xl">✨</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card 2 -->
+<div class="group relative h-96 w-72 [perspective:1000px] max-[768px]:mt-[20px]">
+  <div
+    class="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]"
+  >
+    <div
+      class="absolute w-full h-full rounded-xl  bg-[#38b6ff] p-6 text-black [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="flex justify-between items-start">
+          <div class="text-2xl font-bold font-[typoSpeed]">Step 2</div>
+          <div class="text-5xl">🌟</div>
+        </div>
+        <div class="mt-4">
+          <p class="text-lg font-[variable]">
+            Fund Wallet With SOL
+          </p>
+          <div class="w-[50%] mx-auto flex justify-center items-center pt-[60px]">
+            <img width="100%" class=" rounded" src="./assets/images/2.png" alt="">
+          </div>
+        </div>
+        <div class="mt-auto">
+          <p class="text-sm opacity-75">Hover to flip!</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="absolute w-full h-full rounded-xl bg-[#ffde59] p-6 text-black [transform:rotateX(180deg)] [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="text-2xl font-bold mb-4 text-2xl font-bold font-[typoSpeed]">Step 2</div>
+        <div class="flex-grow">
+          <p class="text-lg font-[variable]">
+            Fund Wallet With SOL
+          </p>
+          <div class="w-[50%] mx-auto flex justify-center items-center pt-[60px]">
+            <img width="100%" class=" rounded" src="./assets/images/2.png" alt="">
+          </div>
+        </div>
+        <div class="flex justify-between items-center mt-auto">
+          <button
+            class="px-4 py-2 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
+          >
+            Action
+          </button>
+          <span class="text-3xl">✨</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card 3 -->
+<div class="group relative h-96 w-72 [perspective:1000px] max-[768px]:mt-[20px]">
+  <div
+    class="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]"
+  >
+    <div
+      class="absolute w-full h-full rounded-xl  bg-[#38b6ff] p-6 text-black [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="flex justify-between items-start">
+          <div class="text-2xl font-bold font-[typoSpeed]">Step 3</div>
+          <div class="text-5xl">🌟</div>
+        </div>
+        <div class="mt-4">
+          <p class="text-lg font-[variable]">
+            Swap the tokens for Sol.
+          </p>
+          <div class="w-[50%] mx-auto flex justify-center items-center pt-[60px]">
+            <img width="100%" class="bg-white rounded" src="./assets/images/3.png" alt="">
+          </div>
+        </div>
+        <div class="mt-auto">
+          <p class="text-sm opacity-75">Hover to flip!</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="absolute w-full h-full rounded-xl bg-[#ffde59] p-6 text-black [transform:rotateX(180deg)] [backface-visibility:hidden]"
+    >
+      <div class="flex flex-col h-full">
+        <div class="text-2xl font-bold mb-4 text-2xl font-bold font-[typoSpeed]">Utep 3</div>
+        <div class="flex-grow">
+          <p class="text-lg font-[variable]">
+            Swap the tokens for Sol.
+          </p>
+          <div class="w-[50%] mx-auto flex justify-center items-center pt-[60px]">
+            <img width="100%" class="bg-white rounded" src="./assets/images/3.png" alt="">
+          </div>
+        </div>
+        <div class="flex justify-between items-center mt-auto">
+          <button
+            class="px-4 py-2 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
+          >
+            Action
+          </button>
+          <span class="text-3xl">✨</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+<!-- tokenomics -->
+ <div class="pt-20" id="Tokenomics">
+  <h2 class="font-[typoSpeed] text-[40px] uppercase text-center max-[768px]:text-[24px]">tokenomics</h2>
+  <div class="w-[40%] mx-auto pt-20">
+    <img width="100%" src="./assets/images/_all.png" alt="">
+  </div>
+ 
+ </div>
+  <!-- community -->
+ <div class="w-[80%] mx-auto text-center ">
+  <h2 class="font-[typoSpeed] text-[40px] uppercase pt-20 max-[768px]:text-[18px] ">join the WATHING community</h2>
+  <p class="font-[variable] text-[22px]  mt-10 max-[768px]:text-[18px] max-[768px]:mt-[20px]">
+    The bigger our community, the stronger our negotiating power with gaming providers. Together, we can revolutionize the gaming industry!
+  </p>
+  <div class="flex items-center justify-center pt-[30px]">
+    <a class="w-[10%]" href=""><img class="w-[100%]" src="./assets/images/telegram.svg" alt=""></a>
+    <a class="w-[10%] ms-[20px] " href=""><img class="w-[100%] " src="./assets/images/X_logo.svg" alt=""></a>
+  </div>
+ </div>
+ <!-- footer -->
+  <div class="w-[80%] mx-auto flex justify-between items-center font-[variable] bg-white mt-[40px] ">
+    <div class="flex  items-center w-[30%] max-[768px]:flex-col">
+<div class="w-[20%]">
+  <img width="100%" src="./assets/images/IMG_9261-removebg-preview.png" alt="">
+</div>
+      <h2>WATHING</h2>
+    </div>
+    <div class="w-[30%]">
+      <p class="max-[768px]:text-[8px]">2025 WATHING .All right reserved</p>
+    </div>
+    <div class="w-[30%]">
+      <p class="max-[768px]:text-[8px]">term and condition | privacy policy</p>
+    </div>
+  </div>
+     </section>
+    <!-- Optional JavaScript for toggling the mobile menu -->
+    <script>
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+      // copy button
+
+
+      const copyButton = document.getElementById('copy-button');
+      const contractAddress = document.getElementById('contract-address');
+      copyButton.addEventListener('click', () => {
+      // Create a temporary textarea to hold the text
+      const tempInput = document.createElement('textarea');
+      tempInput.value = contractAddress.textContent;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      tempInput.setSelectionRange(0, 99999); // For mobile devices
+
+      // Copy the text inside the textarea
+      try {
+        document.execCommand('copy');
+        alert('Contract address copied!');
+      } catch (err) {
+        alert('Oops, unable to copy');
+      }
+
+      // Remove the temporary textarea
+      document.body.removeChild(tempInput);
+    });
+    </script>
+  </body>
+</html>

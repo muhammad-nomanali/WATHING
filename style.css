@@ -1,0 +1,19 @@
+@font-face {
+    font-family:"typoSpeed" ;
+    src: url(./assets/Fonts/Typo_Speed_Shadowed_Demo.otf);
+}
+@font-face {
+    font-family:"variable" ;
+    src: url(./assets/Fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+nav span{
+    font-family:"typoSpeed" ;
+}
+.main{
+    background-image: url(./assets/images/green-grass-blue-sky-vector-24557600.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
